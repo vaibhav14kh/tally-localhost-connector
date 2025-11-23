@@ -10,7 +10,7 @@ namespace tally_localhost_connector
 {
     class Program
     {
-        private static int port = 9001; // default port is 9001 (unless overrided by commandline arguments)
+        private static int port = 9000; // default port is 9000 (unless overrided by commandline arguments)
         private static string version = "1.0.0";
         static async Task Main(string[] args)
         {
